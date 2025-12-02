@@ -120,6 +120,23 @@ Evaluation metric:
 - **Region/state** effects capture local pricing differences.
 - **PCA** did not improve performance for this problem, and in some settings hurt performance.
 
+- We tested the following models:
+
+Model	Cross-Val RMSE
+Baseline Linear Regression	~9884
+Ridge Regression	~9885
+Polynomial Regression (degree 2)	~9363 (best pre-PCA)
+PCA + Linear Regression	~9884
+PCA + Poly Regression	~12056
+PCA + Ridge Regression	~10958
+Best Model: Polynomial Regression (Degree 2)
+
+Test RMSE: ~9267
+Test R²: 0.514
+Test MAE: ~6613
+
+Polynomial regression (degree-2) captures non-linear interactions between age and mileage that linear models cannot.
+
 
 ---
 
