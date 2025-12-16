@@ -153,17 +153,3 @@ Polynomial regression (degree-2) captures non-linear interactions between age an
   - Manual review of unusual listings.
 
 (See notebook section **“Recommendations”** for a more detailed, business-oriented narrative.)
-
----
-
-## 6. Repository Structure
-
-```text
-.
-├── AI ML App 2.ipynb                # Main Jupyter notebook (analysis & modeling)
-├── README.md                        # This file
-└── data
-    └──vehicles.csv                 # Source dataset
-├── images                        
-    └── crisp.png                   # Car Salesman Man
-    └── kurt.png                    # CRISP_DM Model
